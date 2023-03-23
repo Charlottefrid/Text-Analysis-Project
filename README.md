@@ -117,23 +117,24 @@ def compare_texts(url1, url2):
 ```
 
 For [Text Clustering](text_clustering.py), there are 7 texts used to draw the plot. There is a iteration through the list of different tets and create a set of words that appear in each text to find the similarity coefficient. It will take all sets to generate the ratio of the size of intersection of the word sets and stored the results in the two dimensional way. It uses sets, which is a very efficient data structure here. I used chatgpt to understand more about numpy package and how to generate codes for scores of several texts.
+
 <!-- ![NP Array Debug](images/np_array1.png) -->
-<img src="images/np_array1.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<img src="images/np_array1.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 <!-- ![NP Array Debug cont1.](images/np_array2.png) -->
-<img src="images/np_array2.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<img src="images/np_array2.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 <!-- ![NP Array Debug cont2.](images/np_array3.png) -->
-<img src="images/np_array3.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<img src="images/np_array3.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 
 While first running the MDS for clustering, I got several error messages. 
 <!-- ![MDS Error Message](images/mds_error_message.png) -->
-<img src="images/mds_error_message.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<img src="images/mds_error_message.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 And ChatGPT helps me through the problem, and explain why my codes are incorrect. 
 <!-- ![MDS Error Debug](images/MDS_error.png) -->
-<img src="images/MDS_error.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<img src="images/MDS_error.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 
 In intepretting the result of my scatter plot, before meeting with Professor Li, I asked ChatGPT what does it mean by the numbers and axis. 
-<!-- ![Clustering Interpretation](images/scatter_plot_interpretation.png) -->
-<img src="images/scatter_plot_ interpretation.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+<!-- ![Clustering Interpretation](images/scatter_plot_interpretationatter_plot_interpretation.png) -->
+<img src="images/scatter_plot_interpretation.png" width="800" alt="text clustering" style="display:block; margin:10px auto;"/>
 
 ## Result
 ### Book Summary Stats 
