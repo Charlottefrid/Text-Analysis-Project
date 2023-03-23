@@ -128,7 +128,8 @@ And ChatGPT helps me through the problem, and explain why my codes are incorrect
 [MDS Explanation](images/MDS%20error.png)
 
 In intepretting the result of my scatter plot, before meeting with Professor Li, I asked ChatGPT what does it mean by the numbers and axis. 
-[CLUSTERING GRAPH](images/scatter%20plot%20interpretation.png)
+<!-- ![Clustering Interpretation](images/text_clustering.png) -->
+<img src="images/text_clustering.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
 
 ## Result
 ### Book Summary Stats 
@@ -208,8 +209,9 @@ However, for the fairy tales like *The Happy Prince and Other Tales*, the sentim
 ## Text Similarity & Text Clustering
 The similarity score between *The Picture of Dorian Gray* (abbreviated to DG afterwords) and *The Happy Prince* (abbreviated to HP) is 31, with *De Profundis* (abbreviated to DP) is 32, with *The Importance of Being Earnest* (BE) is 33, with *The Gentle Art of Making Enemies* by James McNeill Whistler is 42, with *The Story of Venus and Tannhäuser* by Aubrey Beardsley is 27. It is interesting that among works of Oscar Wilde himself and friends, *The Gentle Art of Making Enemies" by James McNeill Whistler has a highest similarity score. He was a very close friend with Wilde, constantly communicating through telegrams. James McNeill Whilstler, as a painter, through the commmunications, gained a similar word choice pattern as Oscar Wilde. Instead, Wilde's work and his admirer Aubrey Beardley's works are very different as shown from the text similarity scores and scatter plot. While Victorian Era is more about revealing personal struggles, there are huge individual differences on presentation of words. 
 
-Photo:
-[Scatter plot from text_clustering](https://github.com/Charlottefrid/Text-Analysis-Project/blob/main/images/Figure_1.png)
+<!-- ![text clustering result](images/Figure_1.png) -->
+<img src="images/Figure_1.png" width="400" alt="text clustering" style="display:block; margin:10px auto;"/>
+
 
 Quotations:
 [Whistler as a Friend](https://lewisartcafe.com/oscar-wilde-on-whistler-and-vice-a-versa/)
